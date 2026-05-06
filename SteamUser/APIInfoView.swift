@@ -9,7 +9,19 @@ import SwiftUI
 
 struct APIInfoView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("About the API!")
+                .bold()
+                .font(.largeTitle)
+                .padding(.bottom, 20)
+            
+            Text("Link: https://playerdb.co/api/player/steam/")
+            Text("Where I found the link: https://playerdb.co/")
+            
+            Text("App Developer: W. Viktor Gray")
+                .bold()
+                .padding(.top, 20)
+        }
     }
 }
 

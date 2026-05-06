@@ -11,7 +11,7 @@ import SwiftUI
 struct SteamUserApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BrowseView()
         }
     }
 }
